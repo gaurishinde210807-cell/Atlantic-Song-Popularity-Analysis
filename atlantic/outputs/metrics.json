@@ -1,0 +1,513 @@
+{
+  "generated_at": "2026-10-24T13:33:34.653572",
+  "data_quality": {
+    "rows": 27750,
+    "unique_dates": 555,
+    "date_range": "2024-05-18 to 2025-11-27",
+    "unique_songs": 943,
+    "unique_artists": 297,
+    "null_counts": {
+      "date": 0,
+      "position": 0,
+      "song": 0,
+      "artist": 0,
+      "popularity": 0,
+      "duration_ms": 0,
+      "album_type": 0,
+      "total_tracks": 0,
+      "is_explicit": 0,
+      "album_cover_url": 0,
+      "duration_min": 0
+    },
+    "position_range": "1-50",
+    "album_types": {
+      "album": 19707,
+      "single": 8001,
+      "compilation": 42
+    },
+    "explicit_share_pct": 47.9,
+    "popularity_range": "0-100",
+    "duration_min_range": "0.62-12.33",
+    "rows_per_date_min": 50,
+    "rows_per_date_max": 50
+  },
+  "song_stats_shape": [
+    977,
+    19
+  ],
+  "artist_stats_shape": [
+    289,
+    10
+  ],
+  "top_songs_longevity": [
+    {
+      "song": "Something in the Orange",
+      "artist": "Zach Bryan",
+      "days_on_chart": 536,
+      "avg_rank": 26.29,
+      "best_rank": 9,
+      "rank_volatility": 9.35,
+      "avg_popularity": 88.4,
+      "popularity_trend_score": -3.0
+    },
+    {
+      "song": "Last Night",
+      "artist": "Morgan Wallen",
+      "days_on_chart": 492,
+      "avg_rank": 22.61,
+      "best_rank": 1,
+      "rank_volatility": 14.55,
+      "avg_popularity": 85.7,
+      "popularity_trend_score": -8.0
+    },
+    {
+      "song": "I Remember Everything (feat. Kacey Musgraves)",
+      "artist": "Zach Bryan",
+      "days_on_chart": 446,
+      "avg_rank": 13.9,
+      "best_rank": 1,
+      "rank_volatility": 9.89,
+      "avg_popularity": 90.1,
+      "popularity_trend_score": 10.6
+    },
+    {
+      "song": "See You Again (feat. Kali Uchis)",
+      "artist": "Tyler, The Creator",
+      "days_on_chart": 443,
+      "avg_rank": 29.34,
+      "best_rank": 4,
+      "rank_volatility": 11.79,
+      "avg_popularity": 91.1,
+      "popularity_trend_score": -4.0
+    },
+    {
+      "song": "Stick Season",
+      "artist": "Noah Kahan",
+      "days_on_chart": 414,
+      "avg_rank": 18.29,
+      "best_rank": 1,
+      "rank_volatility": 11.36,
+      "avg_popularity": 91.1,
+      "popularity_trend_score": 4.9
+    },
+    {
+      "song": "Cruel Summer",
+      "artist": "Taylor Swift",
+      "days_on_chart": 388,
+      "avg_rank": 16.92,
+      "best_rank": 1,
+      "rank_volatility": 13.63,
+      "avg_popularity": 97.0,
+      "popularity_trend_score": 0.7
+    },
+    {
+      "song": "Lose Control",
+      "artist": "Teddy Swims",
+      "days_on_chart": 329,
+      "avg_rank": 23.5,
+      "best_rank": 5,
+      "rank_volatility": 8.65,
+      "avg_popularity": 90.9,
+      "popularity_trend_score": 5.0
+    },
+    {
+      "song": "Thinkin\u2019 Bout Me",
+      "artist": "Morgan Wallen",
+      "days_on_chart": 324,
+      "avg_rank": 39.02,
+      "best_rank": 21,
+      "rank_volatility": 7.14,
+      "avg_popularity": 86.0,
+      "popularity_trend_score": -2.9
+    },
+    {
+      "song": "Beautiful Things",
+      "artist": "Benson Boone",
+      "days_on_chart": 307,
+      "avg_rank": 14.7,
+      "best_rank": 1,
+      "rank_volatility": 8.94,
+      "avg_popularity": 90.8,
+      "popularity_trend_score": 6.0
+    },
+    {
+      "song": "You Proof",
+      "artist": "Morgan Wallen",
+      "days_on_chart": 302,
+      "avg_rank": 32.6,
+      "best_rank": 9,
+      "rank_volatility": 12.03,
+      "avg_popularity": 84.7,
+      "popularity_trend_score": -3.0
+    }
+  ],
+  "top_artists": [
+    {
+      "artist": "Zach Bryan",
+      "unique_songs": 38,
+      "total_chart_days": 546,
+      "avg_rank": 25.66,
+      "avg_popularity": 85.8,
+      "dominance_index": 6.782
+    },
+    {
+      "artist": "Morgan Wallen",
+      "unique_songs": 11,
+      "total_chart_days": 540,
+      "avg_rank": 29.17,
+      "avg_popularity": 85.9,
+      "dominance_index": 6.357
+    },
+    {
+      "artist": "Noah Kahan",
+      "unique_songs": 12,
+      "total_chart_days": 475,
+      "avg_rank": 20.02,
+      "avg_popularity": 88.8,
+      "dominance_index": 1.827
+    },
+    {
+      "artist": "Tyler",
+      "unique_songs": 16,
+      "total_chart_days": 444,
+      "avg_rank": 25.26,
+      "avg_popularity": 88.4,
+      "dominance_index": 2.541
+    },
+    {
+      "artist": "The Creator",
+      "unique_songs": 16,
+      "total_chart_days": 444,
+      "avg_rank": 25.26,
+      "avg_popularity": 88.4,
+      "dominance_index": 2.541
+    },
+    {
+      "artist": "Taylor Swift",
+      "unique_songs": 96,
+      "total_chart_days": 438,
+      "avg_rank": 24.55,
+      "avg_popularity": 87.1,
+      "dominance_index": 7.261
+    },
+    {
+      "artist": "SZA",
+      "unique_songs": 6,
+      "total_chart_days": 401,
+      "avg_rank": 25.73,
+      "avg_popularity": 91.3,
+      "dominance_index": 2.418
+    },
+    {
+      "artist": "Travis Scott",
+      "unique_songs": 33,
+      "total_chart_days": 345,
+      "avg_rank": 25.58,
+      "avg_popularity": 88.4,
+      "dominance_index": 2.89
+    },
+    {
+      "artist": "Luke Combs",
+      "unique_songs": 7,
+      "total_chart_days": 335,
+      "avg_rank": 27.85,
+      "avg_popularity": 86.3,
+      "dominance_index": 1.409
+    },
+    {
+      "artist": "Billie Eilish",
+      "unique_songs": 14,
+      "total_chart_days": 333,
+      "avg_rank": 20.86,
+      "avg_popularity": 92.6,
+      "dominance_index": 2.876
+    }
+  ],
+  "explicit_analysis": {
+    "explicit_avg_popularity": 87.3,
+    "non_explicit_avg_popularity": 88.0,
+    "explicit_avg_rank": 25.4,
+    "non_explicit_avg_rank": 25.6,
+    "explicit_count": 13303,
+    "non_explicit_count": 14447
+  },
+  "album_type_analysis": [
+    {
+      "album_type": "album",
+      "entries": 19707,
+      "avg_popularity": 86.7,
+      "avg_rank": 26.1,
+      "unique_songs": 745
+    },
+    {
+      "album_type": "compilation",
+      "entries": 42,
+      "avg_popularity": 78.4,
+      "avg_rank": 33.2,
+      "unique_songs": 8
+    },
+    {
+      "album_type": "single",
+      "entries": 8001,
+      "avg_popularity": 90.1,
+      "avg_rank": 24.0,
+      "unique_songs": 239
+    }
+  ],
+  "duration_correlations": {
+    "duration_vs_popularity": -0.043,
+    "duration_vs_rank": -0.045
+  },
+  "pop_rank_correlation": -0.094,
+  "top10_vs_rest": {
+    "top10_avg_pop": 89.6,
+    "rest_avg_pop": 87.2,
+    "top10_explicit_pct": 49.2,
+    "rest_explicit_pct": 47.6
+  },
+  "fast_risers": [
+    {
+      "song": "I Remember Everything (feat. Kacey Musgraves)",
+      "artist": "Zach Bryan",
+      "days_to_peak": 0,
+      "best_rank": 1,
+      "days_on_chart": 446
+    },
+    {
+      "song": "vampire",
+      "artist": "Olivia Rodrigo",
+      "days_to_peak": 0,
+      "best_rank": 1,
+      "days_on_chart": 258
+    },
+    {
+      "song": "FE!N (feat. Playboi Carti)",
+      "artist": "Travis Scott",
+      "days_to_peak": 0,
+      "best_rank": 2,
+      "days_on_chart": 232
+    },
+    {
+      "song": "Not Like Us",
+      "artist": "Kendrick Lamar",
+      "days_to_peak": 0,
+      "best_rank": 1,
+      "days_on_chart": 201
+    },
+    {
+      "song": "Ella Baila Sola",
+      "artist": "Eslabon Armado",
+      "days_to_peak": 0,
+      "best_rank": 1,
+      "days_on_chart": 170
+    },
+    {
+      "song": "Like That",
+      "artist": "Future & Metro Boomin",
+      "days_to_peak": 0,
+      "best_rank": 1,
+      "days_on_chart": 169
+    },
+    {
+      "song": "First Person Shooter (feat. J. Cole)",
+      "artist": "Drake",
+      "days_to_peak": 0,
+      "best_rank": 1,
+      "days_on_chart": 138
+    },
+    {
+      "song": "Saturn",
+      "artist": "SZA",
+      "days_to_peak": 0,
+      "best_rank": 3,
+      "days_on_chart": 119
+    },
+    {
+      "song": "CARNIVAL",
+      "artist": "\u00a5$ & Kanye West & Ty Dolla $ign",
+      "days_to_peak": 0,
+      "best_rank": 1,
+      "days_on_chart": 103
+    },
+    {
+      "song": "Fortnight (feat. Post Malone)",
+      "artist": "Taylor Swift",
+      "days_to_peak": 0,
+      "best_rank": 1,
+      "days_on_chart": 103
+    },
+    {
+      "song": "I Had Some Help (Feat. Morgan Wallen)",
+      "artist": "Post Malone",
+      "days_to_peak": 0,
+      "best_rank": 1,
+      "days_on_chart": 103
+    },
+    {
+      "song": "I Can Do It With a Broken Heart",
+      "artist": "Taylor Swift",
+      "days_to_peak": 0,
+      "best_rank": 3,
+      "days_on_chart": 96
+    },
+    {
+      "song": "I Had Some Help (Feat. Morgan Wallen)",
+      "artist": "Post Malone & Morgan Wallen",
+      "days_to_peak": 0,
+      "best_rank": 1,
+      "days_on_chart": 95
+    },
+    {
+      "song": "WHERE SHE GOES",
+      "artist": "Bad Bunny",
+      "days_to_peak": 0,
+      "best_rank": 1,
+      "days_on_chart": 94
+    },
+    {
+      "song": "LUNCH",
+      "artist": "Billie Eilish",
+      "days_to_peak": 0,
+      "best_rank": 4,
+      "days_on_chart": 89
+    }
+  ],
+  "slow_decliners": [
+    {
+      "song": "Something in the Orange",
+      "artist": "Zach Bryan",
+      "days_on_chart": 536,
+      "best_rank": 9,
+      "avg_rank": 26.29
+    },
+    {
+      "song": "Last Night",
+      "artist": "Morgan Wallen",
+      "days_on_chart": 492,
+      "best_rank": 1,
+      "avg_rank": 22.61
+    },
+    {
+      "song": "I Remember Everything (feat. Kacey Musgraves)",
+      "artist": "Zach Bryan",
+      "days_on_chart": 446,
+      "best_rank": 1,
+      "avg_rank": 13.9
+    },
+    {
+      "song": "See You Again (feat. Kali Uchis)",
+      "artist": "Tyler, The Creator",
+      "days_on_chart": 443,
+      "best_rank": 4,
+      "avg_rank": 29.34
+    },
+    {
+      "song": "Stick Season",
+      "artist": "Noah Kahan",
+      "days_on_chart": 414,
+      "best_rank": 1,
+      "avg_rank": 18.29
+    },
+    {
+      "song": "Cruel Summer",
+      "artist": "Taylor Swift",
+      "days_on_chart": 388,
+      "best_rank": 1,
+      "avg_rank": 16.92
+    },
+    {
+      "song": "Lose Control",
+      "artist": "Teddy Swims",
+      "days_on_chart": 329,
+      "best_rank": 5,
+      "avg_rank": 23.5
+    },
+    {
+      "song": "Beautiful Things",
+      "artist": "Benson Boone",
+      "days_on_chart": 307,
+      "best_rank": 1,
+      "avg_rank": 14.7
+    },
+    {
+      "song": "You Proof",
+      "artist": "Morgan Wallen",
+      "days_on_chart": 302,
+      "best_rank": 9,
+      "avg_rank": 32.6
+    },
+    {
+      "song": "Snooze",
+      "artist": "SZA",
+      "days_on_chart": 282,
+      "best_rank": 9,
+      "avg_rank": 30.45
+    }
+  ],
+  "eda": {
+    "figures": {
+      "popularity_timeline": "/home/claude/atlantic/outputs/figures/popularity_timeline.png",
+      "days_on_chart_dist": "/home/claude/atlantic/outputs/figures/days_on_chart_dist.png",
+      "artist_dominance": "/home/claude/atlantic/outputs/figures/artist_dominance.png",
+      "popularity_vs_rank": "/home/claude/atlantic/outputs/figures/popularity_vs_rank.png",
+      "explicit_comparison": "/home/claude/atlantic/outputs/figures/explicit_comparison.png",
+      "album_type_performance": "/home/claude/atlantic/outputs/figures/album_type_performance.png",
+      "entry_exit_timeline": "/home/claude/atlantic/outputs/figures/entry_exit_timeline.png",
+      "top_songs_longevity": "/home/claude/atlantic/outputs/figures/top_songs_longevity.png",
+      "duration_vs_popularity": "/home/claude/atlantic/outputs/figures/duration_vs_popularity.png",
+      "explicit_share_trend": "/home/claude/atlantic/outputs/figures/explicit_share_trend.png"
+    },
+    "total_songs": 943,
+    "total_artists": 297,
+    "total_snapshots": 555,
+    "date_range": "2024-05-18 to 2025-11-27",
+    "avg_popularity": 87.7,
+    "median_days_on_chart": 7,
+    "max_days_on_chart": 536,
+    "explicit_share_pct": 47.9,
+    "pop_rank_correlation": -0.094
+  },
+  "tier_analysis": [
+    {
+      "rank_range": "1-10",
+      "avg_popularity": 89.6,
+      "median_popularity": 93.0,
+      "std_popularity": 13.5,
+      "avg_duration_min": 3.32,
+      "explicit_pct": 49.2
+    },
+    {
+      "rank_range": "11-20",
+      "avg_popularity": 87.6,
+      "median_popularity": 89.0,
+      "std_popularity": 11.6,
+      "avg_duration_min": 3.38,
+      "explicit_pct": 46.7
+    },
+    {
+      "rank_range": "21-30",
+      "avg_popularity": 87.5,
+      "median_popularity": 89.0,
+      "std_popularity": 9.7,
+      "avg_duration_min": 3.32,
+      "explicit_pct": 47.0
+    },
+    {
+      "rank_range": "31-40",
+      "avg_popularity": 87.1,
+      "median_popularity": 88.0,
+      "std_popularity": 8.3,
+      "avg_duration_min": 3.26,
+      "explicit_pct": 50.1
+    },
+    {
+      "rank_range": "41-50",
+      "avg_popularity": 86.5,
+      "median_popularity": 88.0,
+      "std_popularity": 8.0,
+      "avg_duration_min": 3.26,
+      "explicit_pct": 46.7
+    }
+  ],
+  "runtime_seconds": 5.4
+}
